@@ -1,0 +1,76 @@
+.profile-pic{
+    border-radius: 50%;
+}
+.profile-info-wrapper {
+    width: 40%;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.profile-info-wrapper > div {
+    font-size: 16px;
+}
+.account-info-container {
+    margin: 0 auto;
+    width: 99%;
+    display: flex;
+    flex-direction: row;
+}
+.account-info-container > div:nth-child(1) {
+    width: 25%;
+    padding: 15px;
+}
+
+.account-info-container > div:nth-child(2) {
+    width: 75%;
+    padding: 20px 0 0 30px;
+}
+.dispNone{
+    display:none;
+}
+.dispBlock{
+    display:block;
+}
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding: 10px 700px 100px 100px;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    padding: 8px 12px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+
+/* The Close Button */
+
+.close {
+    position: absolute;
+    top: 1%;
+    right: 3%;
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.image-showcas{
+    display: flex;
+    flex-direction: row;
+}

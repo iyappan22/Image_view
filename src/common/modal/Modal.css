@@ -1,0 +1,9 @@
+.usernameUpdateModal {
+    position: absolute;
+    top: 40 !important;
+    left: 40 !important;
+}
+.poster-image_modal{
+    width: 545px;
+    height: 600px;
+}

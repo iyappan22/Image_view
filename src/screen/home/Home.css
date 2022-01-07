@@ -1,0 +1,48 @@
+.grid-list{
+  padding: 0px;
+}
+.poster {
+  width: auto;
+  height: auto;
+}
+
+
+.poster-image{
+  width : auto;
+  height: auto;
+  max-width: 500px;
+  max-height:550px;
+}
+
+.thumbnail-image{
+  width: 50px !important;
+  height: 50px !important;
+  cursor: pointer;
+}
+.dispNone{
+  display: none;
+}
+.dispBlock{
+  display: block;
+}
+.show-case{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px !important;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+.show-case .gird-tabs{
+  padding: 20px !important;
+  margin: 30px;
+}
+.red{
+  color: red;
+  cursor: pointer;
+}
+.none{
+  background-color: white;
+}
+.comment-box{
+  padding: 10px;
+}
